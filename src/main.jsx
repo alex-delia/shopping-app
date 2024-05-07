@@ -5,6 +5,7 @@ import Home from './components/Home.jsx';
 import Shop from './components/Shop.jsx';
 import Cart from './components/Cart.jsx';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import "typeface-roboto";
 import './index.css';
 
 const router = createBrowserRouter([
