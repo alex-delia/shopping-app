@@ -40,7 +40,7 @@ const Cart = () => {
         <div className={styles.container}>
             <h1 className={styles.header}>Cart</h1>
             <div className={styles.columnHeaders}>
-                <p className={styles.product}>Product</p>
+                <p>Product</p>
                 <p>Unit Price</p>
                 <p>Quantity</p>
                 <p>Total Price</p>

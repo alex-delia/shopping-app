@@ -9,20 +9,19 @@
 
 .columnHeaders {
     display: grid;
-    grid-template-columns: 1fr 2fr repeat(4, 1fr);
+    grid-template-columns: 3fr repeat(4, 1fr);
     justify-items: center;
     align-items: center;
     text-align: center;
     gap: 1rem;
     font-weight: bold;
-    padding: 0 1rem;
-}
-
-.product {
-    grid-column: 1 / 3;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    margin-bottom: 0.5rem;
 }
 
 .total {
+    margin-top: 2rem;
     font-size: 2rem;
     text-align: end;
 }
