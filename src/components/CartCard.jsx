@@ -13,7 +13,7 @@ const CartCard = ({ item, increment, decrement, remove }) => {
                 <button onClick={() => increment(item.id)} className={styles.increment}>+</button>
             </div>
             <p className={styles.totalPrice}>${(item.price * item.quantity).toFixed(2)}</p>
-            <button onClick={() => remove(item.id)}>X</button>
+            <button className={styles.remove} onClick={() => remove(item.id)}>X</button>
         </div>
     );
 };

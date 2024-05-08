@@ -12,12 +12,13 @@
     padding: 1rem;
     box-sizing: border-box;
     border-radius: 1rem;
+    background-color: white;
 }
 
 
 .cartImg {
-    width: 100%;
     max-height: 100%;
+    max-width: 100%;
 }
 
 .quantityContainer {
@@ -33,6 +34,7 @@
     border: none;
     background-color: transparent;
     border-radius: 50%;
+    border: 1px solid black;
 }
 
 .increment:hover {
@@ -41,4 +43,18 @@
 
 .quantity {
     font-size: 24px;
+}
+
+.remove {
+    width: 40px;
+    background: none;
+    font-size: 32px;
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+}
+
+.remove:hover {
+    cursor: pointer;
+    color: rgb(183, 0, 0);
 }

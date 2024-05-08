@@ -9,6 +9,7 @@
     outline: 1px solid black;
     border-radius: 16px;
     gap: 8px;
+    background-color: white;
 }
 
 .card:hover {
@@ -42,19 +43,27 @@ button {
 }
 
 .increment {
-    width: 40px;
-    height: 40px;
-    font-size: 30px;
+    width: 35px;
+    height: 35px;
+    font-size: 25px;
     border: none;
     background-color: transparent;
     border-radius: 50%;
+    border: 1px solid black;
 }
 
 .increment:hover {
     background-color: aquamarine;
+    cursor: pointer;
 }
 
 .addToCart {
     border-radius: 16px;
+    border: 2px solid black;
     padding: 0.5rem;
+}
+
+.addToCart:hover {
+    background-color: rgb(186, 186, 186);
+    cursor: pointer;
 }

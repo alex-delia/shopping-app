@@ -1,5 +1,7 @@
 .container {
-    padding: 2rem;
+    padding: 2rem 4rem;
+    background-color: var(--body-background-color);
+    flex: 1;
 }
 
 .header {
